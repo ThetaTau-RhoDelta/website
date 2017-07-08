@@ -327,6 +327,7 @@ background-color: #222222;
 background-image: url("../img/KC small.jpg");
 background-repeat: no-repeat;
 background-position: center;
+background-size: 100%;
 }
 section#contact .section-heading {
 color: white;
