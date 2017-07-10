@@ -68,10 +68,89 @@ p {
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #f8f8f8;
 }
+header {
+  background-image: url('../img/Banquet46.JPG');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+header .intro-text .intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+header .intro-text .intro-heading {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+section {
+  padding: 100px 0;
+}
+aside {
+  padding: 50px 0;
+}
+footer {
+padding: 25px 0;
+text-align: center;
+}
+footer span.copyright {
+font-size: 90%;
+line-height: 40px;
+text-transform: none;
+font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+text-transform: uppercase;
+}
+footer ul.quicklinks {
+font-size: 90%;
+line-height: 40px;
+margin-bottom: 0;
+text-transform: none;
+font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+text-transform: uppercase;
+}
+.ot-website{
+    color: red;
+}
+ul.social-buttons {
+margin-bottom: 0;
+}
+ul.social-buttons li a {
+font-size: 20px;
+line-height: 40px;
+display: block;
+width: 40px;
+height: 40px;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+transition: all .3s;
+color: white;
+border-radius: 100%;
+outline: none;
+background-color: #222222;
+}
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+background-color: #e23d3d;
+}
 .gallery-title
 {
     font-size: 36px;
-    color: #5e5e5e;
+    color: ;
     text-align: center;
     font-weight: 500;
     margin-bottom: 70px;
@@ -87,26 +166,26 @@ p {
 .filter-button
 {
     font-size: 18px;
-    border: 1px solid rgba(143, 70, 70, 1);
+    border: 1px solid rgba(170, 59, 59, 0.9);
     border-radius: 5px;
     text-align: center;
-    color: rgba(143, 70, 70, 1);
+    color: rgba(170, 59, 59, 0.9);
     margin-bottom: 30px;
 
 }
 .filter-button:hover
 {
     font-size: 18px;
-    border: 1px solid rgba(143, 70, 70, 1);
+    border: 1px solid rgba(170, 59, 59, 0.9);
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
-    background-color: rgba(143, 70, 70, 1);
+    background-color: rgba(170, 59, 59, 0.9);
 
 }
 .btn-default:active .filter-button:active
 {
-    background-color: rgba(143, 70, 70, 1);
+    background-color: rgba(170, 59, 59, 0.9);
     color: white;
 }
 
@@ -118,26 +197,4 @@ p {
 .gallery_product
 {
     margin-bottom: 30px;
-}
-img {
-	width: 50%;
-	height: 50%
-}
-header {
-  background-image: url('../img/Banquet46.JPG');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: top center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: white;
-}
-section {
-  padding: 100px 0;
-}
-aside {
-  padding: 50px 0;
 }
